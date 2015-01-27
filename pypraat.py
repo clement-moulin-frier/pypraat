@@ -2,7 +2,7 @@ from os import getcwd
 from os.path import join
 from subprocess import call
 
-sendpraat = "/home/clement/work/CODE/sendpraat_gtk64"
+sendpraat = "./sendpraat_gtk64"
 
 def call_praat(command):
     call([sendpraat, "praat", command])
